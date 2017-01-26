@@ -2,3 +2,16 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+.banner {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.banner-content {
+  color: white;
+}
