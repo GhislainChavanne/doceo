@@ -7,3 +7,32 @@
   align-items: center;
   padding-left: 80px;
 }
+
+.projet-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projet-text {
+  width: 0 0 65%;
+  h4 {
+    text-align: justify;
+  }
+}
+
+.projet-photos {
+  flex: 0 0 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-photo {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
