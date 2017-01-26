@@ -1,6 +1,7 @@
 body {
   margin-top: 0px;
   font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -9,6 +10,11 @@ h1 {
   font-weight: lighter;
   word-spacing: 18px;
   letter-spacing: 2px;
+}
+
+h2 h3 h4 {
+  margin-top: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {

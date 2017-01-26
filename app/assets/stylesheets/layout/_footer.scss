@@ -1,1 +1,21 @@
 // Your footer style
+
+.footer {
+  background: #AEEAE6;
+  min-width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  width: 500px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 18px;
+  a {
+    color: #484848;
+  }
+}
