@@ -1,1 +1,9 @@
-
+.banner-pages {
+  height: 55vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}

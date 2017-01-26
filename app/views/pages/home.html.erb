@@ -1,7 +1,7 @@
 
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path('banner.jpg') %>');">
   <div class="banner-content">
-    <h1> Venez soutenir Docéo Éducation pour <br> promouvoir
+    <h1 style="border-left: 1px solid white; padding-left: 15px;"> Venez soutenir Docéo Éducation pour <br> promouvoir
     l’éducation des enfant <br> indiens les plus défavorisés.</h1>
   </div>
 </div>
@@ -38,7 +38,11 @@
 <div class="container">
   <h2 class="text-center partenaire-title">LES PARTENAIRES DE DOCÉO</h2>
   <div class="partenaire">
-  <%= image_tag('uw.png') %>
-  <%= image_tag('educo.png') %>
+    <a style="text-decoration: none; cursor: pointer;" target="_blank" href="https://www.unitedwaymumbai.org/">
+      <%= image_tag('uw.png') %>
+    </a>
+    <a style="text-decoration: none; cursor: pointer;" target="_blank" href="http://educo.ie/">
+      <%= image_tag('educo.png') %>
+    </a>
   </div>
 </div>
