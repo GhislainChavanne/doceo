@@ -36,3 +36,24 @@
   flex-flow: column;
   justify-content: space-between;
 }
+
+.pourquoi-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pourquoi-text {
+  flex: 0 0 70%;
+    h4 {
+    text-align: justify;
+  }
+}
+
+.pourquoi-video {
+  flex: 0 0 30%;
+}
