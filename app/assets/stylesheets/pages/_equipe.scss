@@ -4,3 +4,17 @@
   width: 70%;
   margin: auto;
 }
+
+.equipe-photos {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.equipe-details {
+  display: flex;
+  flex-flow: column;
+}
