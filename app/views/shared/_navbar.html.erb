@@ -10,9 +10,13 @@
     <a href="/don" class="navbar-wagon-item navbar-button btn-hover btn">FAIRE UN DON</a>
     <!-- Text link -->
     <div class="language">
-    <a href="" style="font-size: 20px; color: white;" class="navbar-wagon-item navbar-wagon-link">FR</a>
+    <%= link_to locale: nil do %>
+      <p style="font-size: 20px; color: white;" class="navbar-wagon-item navbar-wagon-link">FR</p>
+    <% end %>
     <!-- Text link -->
-    <a href="" style="font-size: 20px; color: white;"  class="navbar-wagon-item navbar-wagon-link">EN</a>
+    <%= link_to locale: 'en' do %>
+      <p style="font-size: 20px; color: white;"  class="navbar-wagon-item navbar-wagon-link">EN</p>
+    <% end %>
     </div>
   </div>
 
