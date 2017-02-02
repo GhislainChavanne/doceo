@@ -42,9 +42,43 @@
     </div>
     <div class="btns">
       <%= image_tag('btns.png') %>
-      <div class="btn-yellow" style="font-size: 20px;"><strong>L'ÉCOLE</strong></div>
-      <div class="btn-bleu" style="font-size: 20px;"><strong>LE PROJET</strong></div>
-      <div class="btn-red" style="font-size: 20px;"><strong>HISTOIRE</strong></div>
+      <div type="button" class="btn-yellow" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg1"><strong>L'ÉCOLE</strong></div>
+      <div type="button" class="btn-bleu" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg2"><strong>LE PROJET</strong></div>
+      <div type="button" class="btn-red" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg3"><strong>HISTOIRE</strong></div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <h4><strong>Saibaba, la réponse à un besoin :</strong> <br>
+      En Inde, l'éducation est un enjeu majeur, un défi pour l'avenir de cet immense pays en plein essor économique. <br>
+      Depuis 2010, l'Inde a adopté une loi sur le Droit à l'éducation garantissant à chaque enfant de 6 à 14 ans le droit à un enseignement gratuit et obligatoire. <br>
+      Si l’accès à l’éducation est en nette amélioration, le niveau d’enseignement dans les écoles publiques laisse à désirer : peu d’équipements de base, un nombre insuffisant d’enseignants souvent peu qualifiés.
+      Cette loi offre un droit à la scolarisation mais pas à… l'éducation !!</h4>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <h4>La priorité est de permettre aux élèves de continuer leur scolarité avec <strong>la création de nouvelles classes</strong> de niveau supérieur (grade 8 créé en 2017) <br>
+      Nous souhaitons aussi <strong>optimiser leurs conditions d’apprentissage</strong> (modernisation des locaux, matériel informatique, sanitaires...) <br>
+      Vos dons nous aideront également à développer de nouvelles activités pour les élèves : <strong>bibliothèque, cours d’art et de musique.</strong> <br><br></h4>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <strong>Saibaba, la réponse à un besoin :</strong> <br>
+      En Inde, l'éducation est un enjeu majeur, un défi pour l'avenir de cet immense pays en plein essor économique. <br>
+      Depuis 2010, l'Inde a adopté une loi sur le Droit à l'éducation garantissant à chaque enfant de 6 à 14 ans le droit à un enseignement gratuit et obligatoire. <br>
+      Si l’accès à l’éducation est en nette amélioration, le niveau d’enseignement dans les écoles publiques laisse à désirer : peu d’équipements de base, un nombre insuffisant d’enseignants souvent peu qualifiés.
+      Cette loi offre un droit à la scolarisation mais pas à… l'éducation !!</h4>
     </div>
   </div>
 </div>
@@ -53,16 +87,17 @@
   <div class="projet-container">
     <div class="projet-text">
     <h4 style="font-weight: lighter;">
-      La priorité est de permettre aux élèves de continuer leur scolarité avec <strong>la création de nouvelles classes</strong> de niveau supérieur (grade 8 créé en 2017) <br>
-      Nous souhaitons aussi <strong>optimiser leurs conditions d’apprentissage</strong> (modernisation des locaux, matériel informatique, sanitaires...) <br>
-      Vos dons nous aideront également à développer de nouvelles activités pour les élèves : <strong>bibliothèque, cours d’art et de musique.</strong> <br><br>
-
-      <strong>Pourquoi Saibaba ?</strong> <br>
-      <strong>Saibaba, la réponse à un besoin :</strong> <br>
-      En Inde, l'éducation est un enjeu majeur, un défi pour l'avenir de cet immense pays en plein essor économique. <br>
-      Depuis 2010, l'Inde a adopté une loi sur le Droit à l'éducation garantissant à chaque enfant de 6 à 14 ans le droit à un enseignement gratuit et obligatoire. <br>
-      Si l’accès à l’éducation est en nette amélioration, le niveau d’enseignement dans les écoles publiques laisse à désirer : peu d’équipements de base, un nombre insuffisant d’enseignants souvent peu qualifiés.
-      Cette loi offre un droit à la scolarisation mais pas à… l'éducation !!</h4>
+      <strong>Vous pouvez supporter Docéo en finançant le coût de la scolarité d’un ou de plusieurs enfants à hauteur de 300 € par an et par enfant.</strong> <br>
+      - L’ouverture d’une ou plusieurs classes supplémentaires 12 000 € par an / par classe <br>
+      - La mise en place de cours d’art et de musique : 12 000 € <br>
+      - La création d’une bibliothèque : bibliothécaire, achat de livres, système de gestion 17 000 € <br>
+      - La modernisation des locaux et des condition d’apprentissage <br>
+      <strong>Donner à Docéo, c'est aussi investir au côté d'acteurs majeurs de l'action humanitaire mondiale.</strong></h4>
+  <a style="text-decoration: none; cursor: pointer;" href="/don">
+  <div class="btn-doceo btn-hover" style="margin-top: 40px;">
+  <h4>Faites un don</h4>
+  </div>
+  </a>
     </div>
     <div class="projet-photos">
       <div class="flex-photo">
@@ -74,29 +109,3 @@
   </div>
 </div>
 
-  <h2 class="text-center partenaire-title">POURQUOI DONNER À DOCÉO?</h2>
-
-<div class="container">
-  <div class="pourquoi-container">
-    <div class="video">
-      <iframe width="260" height="157" src="https://www.youtube.com/embed/SbPVDLOigXQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="pourquoi-text">
-      <h4 style="font-weight: lighter;">
-      <strong>Vous pouvez supporter Docéo en finançant le coût de la scolarité d’un ou de plusieurs enfants à hauteur de 300 € par an et par enfant.</strong> <br>
-      - L’ouverture d’une ou plusieurs classes supplémentaires 12 000 € par an / par classe <br>
-      - La mise en place de cours d’art et de musique : 12 000 € <br>
-      - La création d’une bibliothèque : bibliothécaire, achat de livres, système de gestion 17 000 € <br>
-      - La modernisation des locaux et des condition d’apprentissage <br>
-      <strong>Donner à Docéo, c'est aussi investir au côté d'acteurs majeurs de l'action humanitaire mondiale.</strong></h4>
-    </div>
-  </div>
-</div>
-
-<div class="container" style="margin-bottom: 30px;">
-  <a style="text-decoration: none; cursor: pointer;" href="/don">
-  <div class="btn-doceo btn-hover" style="margin-top: 40px;">
-  <h4>Faites un don</h4>
-  </div>
-  </a>
-</div>
