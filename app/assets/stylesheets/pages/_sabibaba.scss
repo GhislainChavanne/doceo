@@ -1,11 +1,24 @@
 .banner-pages {
-  height: 55vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover !important;
   display: flex;
   align-items: center;
   padding-left: 80px;
+}
+
+
+
+.wraper-carousel-btn {
+  display: flex;
+  flex-flow: row;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  height: 400px;
+  margin-top: 30px;
 }
 
 .projet-container {

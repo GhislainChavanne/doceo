@@ -1,0 +1,23 @@
+.carousel {
+    padding: 10px;     /* Shows as a border around the carousel */
+    width: 500px;
+    align-items: center;
+    flex: 0 0 50%;
+  img {
+    margin: auto;
+  }
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 50px;
+}
+
+#myCarousel {
+  width: 505px;
+  height: 405px;
+  background-color: white;
+  clear: left;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
