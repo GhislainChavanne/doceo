@@ -73,4 +73,26 @@
 
 .modal-content {
   padding: 40px;
+  text-align: justify;
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #132c4a;
+  }
+}
+
+.modal-content {
+  border-radius: 2px;
+}
+
+.bs-example-modal-lg1 {
+  background-color: rgba(19, 44, 74, 0.8);
+}
+
+.bs-example-modal-lg2 {
+  background-color: rgba(19, 44, 74, 0.8);
+}
+
+.bs-example-modal-lg3 {
+  background-color: rgba(19, 44, 74, 0.8);
 }
