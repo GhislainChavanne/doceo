@@ -5,9 +5,10 @@
   </div>
 </div>
 
-<div class="wraper">
-  <h3 id="text-accroche"><i class="fa fa-quote-right" aria-hidden="true"></i> L'éducation est l'arme la plus puissante qu'on puisse utiliser pour changer le monde <i class="fa fa-quote-left" aria-hidden="true"></i> <br>
+<div class="wraper-mandela">
+  <h3 id="text-accroche"><i class="fa fa-quote-left" aria-hidden="true"></i> L'éducation est l'arme la plus puissante qu'on puisse utiliser pour changer le monde <i class="fa fa-quote-right" aria-hidden="true"></i> <br>
   <strong>Nelson Mandela</strong></h3>
+  <%= image_tag('child.gif') %>
 </div>
 
 <div class="wraper" style="background-color: #e1e7ef; padding-top: 30px; padding-bottom: 30px">
@@ -43,9 +44,9 @@
     </div>
     <div class="btns">
       <%= image_tag('btns.png') %>
-      <div type="button" class="btn-yellow" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg1"><strong>POURQUOI SAIBABA</strong></div>
-      <div type="button" class="btn-bleu" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg2"><strong>SES CARACTÉRISTIQUES</strong></div>
-      <div type="button" class="btn-red" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg3"><strong>LE PROJET</strong></div>
+      <div type="button" class="btn-doceo btn-hover2" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg1"><strong>POURQUOI SAIBABA</strong></div>
+      <div type="button" class="btn-doceo btn-hover2" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg3"><strong>SES CARACTÉRISTIQUES</strong></div>
+      <div type="button" class="btn-doceo btn-hover2" style="font-size: 20px; cursor: pointer;" data-toggle="modal" data-target=".bs-example-modal-lg2"><strong>LE PROJET</strong></div>
     </div>
   </div>
   </div>
@@ -54,16 +55,21 @@
 <div class="modal fade bs-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h2>Saibaba, la réponse à un besoin pour les enfants défavorisés : Un enseignement de qualité et une éducation humaine.</h2>
+      <%= image_tag('favicon.png', size: "50x50") %>
+      <h3>Saibaba, la réponse à un besoin pour les enfants défavorisés : Un enseignement de qualité et une éducation humaine.</h4>
       <h4>
       L’éducation est un enjeu majeur en Inde, un défi pour l'avenir.
-      En 2010, l'Inde a adopté une loi sur le Droit à l'éducation garantissant à chaque enfant de 6 à 14 ans un enseignement gratuit et obligatoire.
+      En 2010, l'Inde a adopté une loi sur le Droit à l'éducation garantissant à chaque enfant de 6 à 14 ans un enseignement gratuit et obligatoire.</h4>
+
+      <h4>
       Mais le niveau d’enseignement dans les écoles publiques laisse encore à désirer : peu d’équipements de base, un nombre insuffisant d’enseignants souvent peu qualifiés…
       Cette loi donne accès à la Scolarisation mais pas à… l'Education !!
-      Quelques chiffres :
-      50°/° des enfants abandonnent l’école vers l’âge de 10 ans
+      Quelques chiffres :</h4>
+
+      <h4><strong>
+      50% des enfants abandonnent l’école vers l’âge de 10 ans
       Taux d’Alphabétisation en 2016 : 70% des hommes
-      48% des femmes</h4>
+      48% des femmes</strong></h4>
     </div>
   </div>
 </div>
@@ -71,10 +77,15 @@
 <div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h2>Poursuivre le développement de Saibaba pour y faire grandir ses élèves afin qu’ils ne retournent pas dans la rue :
-       Ouvrir chaque année de nouvelles classes de niveau supérieur ( le grade 8 a été créé en 2017).</h2>
-      <h4>Améliorer les conditions d’apprentissage : Modernisation des locaux Création de sanitaires Matériel informatique Créer des activités culturelles et sportives :
-      Création d’une Bibliothèque ( livres, bibliothécaire…) Cours d’art Cours de Musique Education physique Sports <h4>
+    <%= image_tag('favicon.png', size: "50x50") %>
+      <h3>Les besoins de Saibaba</h3>
+      <h4>Poursuivre le développement de Saibaba pour y faire grandir ses élèves afin qu’ils ne retournent pas dans la rue : Ouvrir chaque année de nouvelles classes de niveau supérieur ( le grade 8 a été créé en 2017)</h4>
+      <h4><strong>Docéo souhaite apporter son aide pour améliorer les conditions d’apprentissage:</strong></h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Modernisation des locaux;</h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Création de sanitaires;</h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Matériel informatique;</h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Création d’une Bibliothèque ( livres, bibliothécaire…) Cours d’art Cours de Musique Education physique Sports;</h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i>Mise en place de Cours d’art, de Musique, d'éducation physique, de Sports.</h4>
     </div>
   </div>
 </div>
@@ -82,62 +93,37 @@
 <div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
-      <h4>Saibaba c’est : 650 élèves, X classes, X enseignants
-      Une éducation académique de qualité :
-      Un enseignement en Anglais dès la maternelle
-      Un encadrement professionnel et qualifié
-      Des enseignants diplômés et formés
-      2 professeurs par classe de 40 élèves, 3 en maternelle
-      Activités sportives et culturelles (art, musique)
-      Un accueil ouvert toute l’année  y compris pendant les vacances
-      Une éducation humaine pour accompagner les enfants:
-      «  Give them love and Happiness »
-      Une éducation qui impacte les communautés environnantes
-      Participation et implication des parents à la vie de l’école
-      Interactivité et communication entre élèves, parents et professeurs
-      Accompagnement et suivi psychologique des enfants fragilisés
-      Apprentissage de l’hygiène et des règles de vie fondamentales</h4>
+    <%= image_tag('favicon.png', size: "50x50") %>
+      <h3>Saibaba, une école à l'éducation académique de qualité</h3>
+      <h4><strong>Saibaba compte près de 650 élèves et offre à ces derniers un enseignement aux nombreuses qualités!</strong></h4>
+      <h4>Un enseignement en Anglais dès la maternelle;</h4>
+      <h4>Un encadrement professionnel et qualifié;</h4>
+      <h4>Des enseignants diplômés et formés;</h4>
+      <h4>2 professeurs par classe de 40 élèves, 3 en maternelle;</h4>
+      <h4>Activités sportives et culturelles (art, musique);</h4>
+      <h4>Un accueil ouvert toute l’année  y compris pendant les vacances</h4>
+      <h4>Une éducation humaine pour accompagner les enfants:
+      «  Give them love and Happiness »;</h4>
+      <h4>Une éducation qui impacte les communautés environnantes;</h4>
+      <h4>Participation et implication des parents à la vie de l’école;</h4>
+      <h4>Interactivité et communication entre élèves, parents et professeurs;</h4>
+      <h4>Accompagnement et suivi psychologique des enfants fragilisés;</h4>
+      <h4>Apprentissage de l’hygiène et des règles de vie fondamentales.</h4>
     </div>
   </div>
 </div>
 
-<div class="wraper">
+<div class="wraper" style="margin: auto; margin-top: 60px; margin-bottom: 60px;">
   <div class="container">
-  <div class="projet-container">
-    <div class="projet-text">
-    <h4 style="font-weight: lighter;">
-      <strong>Contribuez à la prise en charge annuelle de la scolarité d’1 ou de plusieurs enfants. Cout annuel / enfant = 400€
-      Faire un Don : montant libre
-      Je donne  X€ 1 fois
-      Je donne X€ tous les mois
-
-      Devenir Partenaire :
-      Grandes entreprises, Fondations d’entreprises, PME, TPE…quelle que soit la structure et la taille de votre organisation, Engagez vous à nos côtés autour d’objectifs communs.
-      Dons financiers, Dons en nature, Mécénat de compétences, Actions de solidarité avec les collaborateurs.
-      Partagez nos valeurs de solidarité, mobilisez vos collaborateurs :
-      Soutenez nous !
-
-      Vos dons bénéficient d’une déduction fiscale
-       de 65°/° pour les particuliers
-      60°/° pour les entreprises
-
-      En France Helloasso
-      UK mydonate
-      <strong>Donner à Docéo, c'est aussi investir au côté d'acteurs majeurs de l'action humanitaire mondiale.</strong></h4>
-  <a style="text-decoration: none; cursor: pointer;" href="/don">
-  <div class="btn-doceo btn-hover" style="margin-top: 40px;">
-  <h4>Faites un don</h4>
-  </div>
-  </a>
-    </div>
-    <div class="projet-photos">
-      <div class="flex-photo">
-        <%= image_tag('img1.png', size: "165x125") %>
-        <%= image_tag('img2.png', size: "165x125") %>
-        <%= image_tag('img3.png', size: "165x125") %>
+    <div class="row">
+      <div class="col-md-4">
+        <iframe style="border: solid 10px #132c4a; border-radius: 2px;" width="300" height="200" src="https://www.youtube.com/embed/SbPVDLOigXQ" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="col-md-8">
+        <br>
+        <h3 class="partenaire-title" style="border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.07); padding: 10px; background-color: #e1e7ef;">UNITED WAY MUMBAY, PARTENAIRE DE <br> DOCÉO SUR CETTE OPÉRATION. <br> <i class="fa fa-play-circle" aria-hidden="true"></i></h3>
       </div>
     </div>
-  </div>
   </div>
 </div>
 
