@@ -25,6 +25,12 @@
   }
 }
 
+@media screen and (max-width: 330px) {
+  .banner-content h1 {
+  font-size: 20px;
+  }
+}
+
 #text-accroche {
   font-weight: lighter;
   letter-spacing: 2px;
