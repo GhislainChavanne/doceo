@@ -20,3 +20,16 @@
     letter-spacing: 2px;
   }
 }
+
+@media screen and (max-width: 630px) {
+  .footer-content {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .footer-content {
+    flex-flow: column;
+  }
+}
+

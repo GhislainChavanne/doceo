@@ -14,8 +14,15 @@
   padding-left: 80px;
 }
 
+
 .banner-content {
   color: white;
+}
+
+@media screen and (max-width: 539px) {
+  .banner-content h1 {
+  font-size: 40px;
+  }
 }
 
 #text-accroche {
@@ -38,9 +45,6 @@
   margin-bottom: 30px;
   margin-top: 30px;
   width: 100%;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
 }
 
 .sabibaba-resume {
@@ -78,6 +82,7 @@
 .partenaire-title {
   color: #008489;
   letter-spacing: 4px;
+  margin-bottom: 20px;
 }
 
 .partenaire {
