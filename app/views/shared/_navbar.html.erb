@@ -7,8 +7,8 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- Button (call-to-action) -->
-    <a href="/sabibaba" class="navbar-wagon-item navbar-button btn-hover btn">LE PROJET</a>
-    <a href="/don" class="navbar-wagon-item navbar-button btn-hover btn">FAIRE UN DON</a>
+    <a href="/sabibaba" class="navbar-wagon-item navbar-button btn-hover btn"><%= I18n.t('.btn2') %></a>
+    <a href="/don" class="navbar-wagon-item navbar-button btn-hover btn"><%= I18n.t('.btn1') %></a>
     <!-- Text link -->
     <div class="language">
     <%= link_to locale: nil do %>
@@ -26,9 +26,9 @@
     <div class="dropdown">
       <i style="color: white;" class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="/sabibaba">Le Projet</a></li>
-        <li><a href="/don">Donner</a></li>
-        <li><a href="/equipe">L'équipe Docéo</a></li>
+        <li><a href="/sabibaba"><%= I18n.t('.btn2') %></a></li>
+        <li><a href="/don"><%= I18n.t('.btn1') %></a></li>
+        <li><a href="/equipe"><%= I18n.t('.team') %></a></li>
       </ul>
     </div>
   </div>

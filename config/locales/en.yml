@@ -1,3 +1,8 @@
 en:
   home:
   title: "Join Doceo Education and help indians children to have full access to education"
+
+  navbar:
+  btn1: "DONATE"
+  btn2: "OUR PROJECT"
+  team: "Doceo's Team"
