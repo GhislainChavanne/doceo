@@ -40,7 +40,15 @@
   height: 40px;
   align-items: center;
   color: #132c4a;
+  font-size: 20px; cursor: pointer;
 }
+
+@media screen and (max-width: 400px) {
+  .btn-doceo {
+  font-size: 12px;
+  }
+}
+
 
 
 .btn-yellow {
