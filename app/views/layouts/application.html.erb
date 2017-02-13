@@ -10,10 +10,10 @@
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all' %>
 
-    <title>Doceo Education - humanitarian association</title>
-    <meta name="description" content="Join Doceo Education and help children to have full access to education">
+    <title><%= meta_title %></title>
+    <meta name="description" content="<%= meta_description %>">
     <!-- Facebook Open Graph data -->
-    <meta property="og:title" content="<%= meta_title %>" />
+    <meta property="og:title" content="Doceo Education - humanitarian association" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<%= request.original_url %>" />
     <meta property="og:image" content="<%= image_url(meta_image) %>" />
