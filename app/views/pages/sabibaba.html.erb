@@ -1,20 +1,20 @@
 <div class="banner-pages" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path('banner.jpg') %>');">
   <div class="banner-content">
     <h1 style="border-left: 1px solid white; padding-left: 15px;"> Saibaba School
-    <br>Le projet </h1>
+    <br><%= I18n.t('.title4') %></h1>
   </div>
 <iframe width="380" height="215" src="https://www.youtube.com/embed/miPdUrW421w?autoplay=1" frameborder="0" allowfullscreen style="border: solid 10px #008489;"></iframe>
 </div>
 
 <div class="wraper-mandela">
-  <h3 id="text-accroche"><i class="fa fa-quote-left" aria-hidden="true"></i> L'éducation est l'arme la plus puissante qu'on puisse utiliser pour changer le monde <i class="fa fa-quote-right" aria-hidden="true"></i> <br>
+  <h3 id="text-accroche"><i class="fa fa-quote-left" aria-hidden="true"></i><%= I18n.t('.mandela') %><i class="fa fa-quote-right" aria-hidden="true"></i><br>
   <strong>Nelson Mandela</strong></h3>
   <%= image_tag('child.gif') %>
 </div>
 
 <div class="wraper" style="background-color: #e1e7ef; padding-top: 30px; padding-bottom: 30px">
   <div class="container">
-  <h2 class="text-center partenaire-title" style="margin-top: 0px;">Saibaba , une école académique de qualité, bilingue anglais, gratuite qui accueille les enfants défavorisés du Bidonville de Lalbaug (Mumbai).</h2>
+  <h2 class="text-center partenaire-title" style="margin-top: 0px;"><%= I18n.t('.title5') %></h2>
   <div class="row" style="margin-top: 20px;">
     <div class="col-md-6 hidden-xs text-center">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -48,9 +48,9 @@
     <div class="col-md-6 col-xs-12 text-center">
       <div class="btns">
         <%= image_tag('btns.png') %>
-        <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg1"><strong>POURQUOI SAIBABA?</strong></div>
-        <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg3"><strong>SES CARACTÉRISTIQUES</strong></div>
-        <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg2"><strong>SES BESOINS</strong></div>
+        <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg1"><strong><%= I18n.t('.modal1') %></strong></div>
+        <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg3"><strong><%= I18n.t('.modal2') %></strong></div>
+        <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg2"><strong><%= I18n.t('.modal3') %></strong></div>
       </div>
     </div>
   </div>
@@ -61,23 +61,18 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h3>Pourquoi Saibaba?</h3>
+      <h3><%= I18n.t('.modal1-title') %></h3>
       <h4>
-      - Pour sortir les enfants du bidonville et de la misère <br>
-      - Pour apporter aux élèves une Education digne de ce nom <br>
-      - Pour construire ces jeunes humainement et socialement <br>
-      - Pour que mendier ne fasse plus jamais partie de leur vie <br>
+      - <%= I18n.t('.modal1-text1') %><br>
+      - <%= I18n.t('.modal1-text2') %> <br>
+      - <%= I18n.t('.modal1-text3') %> <br>
+      - <%= I18n.t('.modal1-text4') %> <br>
       </h4>
-      <h4>
-      L’éducation est un enjeu majeur en Inde, un défi pour l'avenir.
-      En 2010, l'Inde a adopté une loi sur le Droit à l'éducation garantissant à chaque enfant de 6 à 14 ans un enseignement gratuit et obligatoire.</h4>
+      <h4><%= I18n.t('.modal1-text5') %></h4>
+      <h4><%= I18n.t('.modal1-text6') %></h4>
 
-      <h4>
-      Mais le niveau d’enseignement dans les écoles publiques est faible : les enseignants sont souvent peu qualifiés et ne sont pas assez nombreux. Leur taux d'absentéisme et celui des enfants est très élevé. Par ailleurs, l'infrastructure est peu développée : pas d'eau courante, pas de toilettes...
-      </h4>
-
-      <h4><strong>- 50% des enfants abandonnent l’école vers l’âge de 10 ans</strong></h4>
-      <h4><strong>- Taux d’Alphabétisation en 2016 : 70% des hommes, 48% des femmes</strong></h4>
+      <h4><strong>- <%= I18n.t('.modal1-text7') %></strong></h4>
+      <h4><strong>- <%= I18n.t('.modal1-text8') %></strong></h4>
 
     </div>
   </div>
@@ -87,15 +82,15 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h3>Les besoins de Saibaba</h3>
-      <h4><strong>Docéo a besoin de vous pour:</strong></h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Que les élèves puissent terminer leur scolarité</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Ouvrir chaque année de nouvelles classes de niveau supérieur (le grade 8 a été créé en 2017)</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Qu’ils ne retournent pas à la rue</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Moderniser le matériel informatique</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Ouvrir une Bibliothèque (achat de livres, recrutement d’une bibiothécaire)</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Développer les cours d’éducation physique</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Mettre en place des cours de musique</h4>
+      <h3><%= I18n.t('.modal2-title') %></h3>
+      <h4><strong><%= I18n.t('.modal2-text1') %></strong></h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> <%= I18n.t('.modal2-text2') %></h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> <%= I18n.t('.modal2-text3') %></h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> <%= I18n.t('.modal2-text4') %></h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> <%= I18n.t('.modal2-text5') %></h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> <%= I18n.t('.modal2-text6') %></h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> <%= I18n.t('.modal2-text7') %></h4>
+      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> <%= I18n.t('.modal2-text8') %></h4>
     </div>
   </div>
 </div>
@@ -104,32 +99,30 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h3><strong>Saibaba, la réponse à un besoin pour les enfants défavorisés : Un enseignement de qualité et une éducation humaine.</strong></h3>
-      <h4>- 650 élèves (filles et garçons)</h4>
-      <h4>- Un enseignement en Anglais dès la maternelle</h4>
-      <h4>- Un encadrement professionnel et qualifié</h4>
-      <h4>- Des enseignants diplômés et formés</h4>
-      <h4>- 2 professeurs par classe de 40 élèves, 3 en maternelle</h4>
-      <h4>- Des activités sportives et culturelles (art, musique)</h4>
-      <h4>- Un accueil ouvert toute l’année, y compris pendant les vacances scolaires</h4><br>
-      <h3><strong>Saibaba, une éducation HUMAINE « Give them Love and Happiness »</strong></h3>
-      <h4>- Accompagnement, soutien et suivi psychologique des enfants</h4>
-      <h4>- Participation et implication des parents à la vie de l’école</h4>
-      <h4>- Intéractivité et communication entre élèves, parents et professeurs</h4>
-      <h4>- Apprentissage de l’hygène et des règles fondamentales</h4>
+      <h3><strong><%= I18n.t('.modal3-title') %></strong></h3>
+      <h4>- <%= I18n.t('.modal3-text1') %></h4>
+      <h4>- <%= I18n.t('.modal3-text2') %></h4>
+      <h4>- <%= I18n.t('.modal3-text3') %></h4>
+      <h4>- <%= I18n.t('.modal3-text4') %></h4>
+      <h4>- <%= I18n.t('.modal3-text5') %></h4>
+      <h4>- <%= I18n.t('.modal3-text6') %></h4>
+      <h4>- <%= I18n.t('.modal3-text7') %></h4><br>
+      <h3><strong><%= I18n.t('.modal3-text8') %></strong></h3>
+      <h4>- <%= I18n.t('.modal3-text9') %></h4>
+      <h4>- <%= I18n.t('.modal3-text10') %></h4>
+      <h4>- <%= I18n.t('.modal3-text11') %></h4>
+      <h4>- <%= I18n.t('.modal3-text12') %></h4>
     </div>
   </div>
 </div>
 
 <div class="wraper" style="margin: auto; margin-top: 60px; margin-bottom: 60px;">
   <div class="container" style="border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.07); padding: 10px; background-color: #e1e7ef; padding: 25px;">
-  <h3 class="partenaire-title" style="font-size: 25px; margin-bottom: 50px;">Docéo participe à la définition des priorités et des tâches à financer, intervient sur les grandes orientations des projets qu’il finance, garantit la transparence dans l’utilisation des fonds. Docéo s’appuie sur des ONG présentes à Bombay (United Way of India) qui assurent un relai local.
-  Les frais de fonctionnement de Docéo sont limités au strict minimum (en 2016, 98% des fonds collectés ont
-  été consacrés au financement de l’école).</h3>
+  <h3 class="partenaire-title" style="font-size: 25px; margin-bottom: 50px;"><%= I18n.t('.doceo-definition') %></h3>
     <div class="row text-center">
       <div class="col-md-8">
         <br>
-        <h3 class="partenaire-title" style="font-size: 25px;">UNITED WAY MUMBAY, PARTENAIRE DE <br> DOCÉO SUR CETTE OPÉRATION. <br> <i class="fa fa-play-circle" aria-hidden="true"></i></h3>
+        <h3 class="partenaire-title" style="font-size: 25px;"><%= I18n.t('.doceo-partenaire') %><br> <i class="fa fa-play-circle" aria-hidden="true"></i></h3>
       </div>
       <div class="col-md-4 col-xs-12">
         <iframe style="border: solid 10px #132c4a; border-radius: 2px; margin: auto;" width="270" height="200" src="https://www.youtube.com/embed/SbPVDLOigXQ" frameborder="0" allowfullscreen></iframe>
