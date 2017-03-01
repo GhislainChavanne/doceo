@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def equipe
   end
 
-  def sabibaba
+  def saibaba
   end
 
   def don
