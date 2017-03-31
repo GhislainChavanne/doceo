@@ -1,5 +1,9 @@
 <div class="navbar-wagon navbar-wagon-fixed">
+  <% if I18n.locale == :en %>
+  <a href="/en" class="navbar-wagon-brand">
+  <% else %>
   <a href="/" class="navbar-wagon-brand">
+  <% end %>
     <%= image_tag('logo.png') %>
   </a>
 
