@@ -25,11 +25,18 @@ fr:
   modal3: "SES BESOINS"
   doceo-definition: "Docéo participe à la définition des priorités et des tâches à financer, intervient sur les grandes orientations des projets qu’il finance, garantit la transparence dans l’utilisation des fonds. Docéo s’appuie sur des ONG présentes à Bombay (United Way of India) qui assurent un relai local. Les frais de fonctionnement de Docéo sont limités au strict minimum (en 2016, 98% des fonds collectés ont été consacrés au financement de l’école)."
   doceo-partenaire: "UNITED WAY MUMBAY, PARTENAIRE DE DOCÉO SUR CETTE OPÉRATION."
+
   modal1-title: "Pourquoi Saibaba?"
-  modal1-text5: "L’éducation est un enjeu majeur en Inde, un défi pour l'avenir.
+  modal1-text1: "L’éducation est un enjeu majeur en Inde, un défi pour l'avenir.
       En 2010, l'Inde a adopté une loi sur le Droit à l'éducation garantissant à chaque enfant de 6 à 14 ans un enseignement gratuit et obligatoire."
-  modal1-text7: "50% des enfants abandonnent l’école vers l’âge de 10 ans"
-  modal1-text8: "Taux d’Alphabétisation en 2016 : 70% des hommes, 48% des femmes"
+  mais: "Mais"
+  modal1-text2: "le niveau d’éducation dans les écoles publiques est faible : les enseignants sont souvent peu qualifiés, ils ne sont pas assez nombreux. Les classes sont surchargées jusqu’à 60 élèves dans les grandes villes. Le taux d'absentéisme est très élevé aussi bien chez les professeurs que chez les élèves."
+  modal1-text3: "Par ailleurs, l'infrastructure est peu développée : pas d'eau courante, pas de toilettes..."
+  modal1-text4: "Enfin les mentalités évoluent lentement : pour les familles les plus pauvres, l’enfant est une source de revenu. Et c’est encore plus vrai pour filles. Elles doivent mendier, aider leur mère, garder leurs frères et sœurs… "
+  modal1-text5: "Aujourd’hui, en Inde, on estime que la moitié des femmes et un tiers des hommes sont ILLETTRES."
+  modal1-text6: "Selon les dernières statistiques de l’UNESCO, 15 millions de filles entre 6 et 10 ans ne vont pas à l’école ce qui représente 25% de cette génération."
+  modal1-text7: "50% des enfants abandonnent l’école vers l’âge de 10 ans."
+
   modal2-title: "Les besoins de Saibaba"
   modal2-text1: "En 2016, Docéo a permis :"
   modal2-text2: "Le recrutement d’un directeur pédagogique, d’une psychologue et d’une assistante sociale"
@@ -40,7 +47,8 @@ fr:
   modal2-text7: "L’ouverture d’une classe de 4 ème (grade 8) pour permettre aux enfants de poursuivre leur scolarité"
   modal2-text8: "La création d’une bibliothèque, l’achat de livres et le recrutement d’une bibliothécaire"
   modal2-text9: "La modernisation de la salle informatique"
-  modal2-text10: "L’achat d’instruments pour mettre en place des cours de musique. "
+  modal2-text10: "L’achat d’instruments pour mettre en place des cours de musique."
+
   modal3-title: "Un établissement complet alliant un projet pédagogique de grande qualité à un accompagnement humain et psychologique"
   modal3-text: "Saibaba, un projet pédagogique de grande qualité"
   modal3-text1: "650 élèves (filles et garçons)"

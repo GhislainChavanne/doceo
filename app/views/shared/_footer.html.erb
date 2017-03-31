@@ -1,9 +1,16 @@
 <div class="footer text-center">
   <div class="footer-content">
+  <% if I18n.locale == :en %>
+    <a href="/en/saibaba"><%= I18n.t('.footer1') %></a>
+    <a href="/en/don"><%= I18n.t('.footer2') %></a>
+    <a href="/en/equipe"><%= I18n.t('.footer3') %></a>
+    <a href="mailto:valerie.dousset@doceo-education.com,martine.banzet@doceo-education.com"><%= I18n.t('.footer4') %></a>
+  <% else %>
     <a href="/saibaba"><%= I18n.t('.footer1') %></a>
     <a href="/don"><%= I18n.t('.footer2') %></a>
     <a href="/equipe"><%= I18n.t('.footer3') %></a>
     <a href="mailto:valerie.dousset@doceo-education.com,martine.banzet@doceo-education.com"><%= I18n.t('.footer4') %></a>
+  <% end %>
   </div>
 </div>
 
