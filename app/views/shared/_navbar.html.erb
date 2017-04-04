@@ -30,14 +30,30 @@
     </div>
   </div>
 
+  <div class="language-mobile">
+    <%= link_to locale: nil do %>
+      <p style="font-size: 18px; color: white; margin-top: 8px;" class="navbar-wagon-item navbar-wagon-link">FR</p>
+    <% end %>
+    <!-- Text link -->
+    <%= link_to locale: 'en' do %>
+      <p style="font-size: 18px; color: white; margin-top: 8px;"  class="navbar-wagon-item navbar-wagon-link">EN</p>
+    <% end %>
+    </div>
+
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">
     <div class="dropdown">
       <i style="color: white;" class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="/sabibaba"><%= I18n.t('.btn2') %></a></li>
+      <% if I18n.locale == :en %>
+        <li><a href="/en/saibaba"><%= I18n.t('.btn2') %></a></li>
+        <li><a href="/en/don"><%= I18n.t('.btn1') %></a></li>
+        <li><a href="/en/equipe"><%= I18n.t('.team') %></a></li>
+      <% else %>
+        <li><a href="/saibaba"><%= I18n.t('.btn2') %></a></li>
         <li><a href="/don"><%= I18n.t('.btn1') %></a></li>
         <li><a href="/equipe"><%= I18n.t('.team') %></a></li>
+      <% end %>
       </ul>
     </div>
   </div>

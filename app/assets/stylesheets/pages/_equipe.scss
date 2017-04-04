@@ -14,6 +14,12 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 539px) {
+  .equipe-photos {
+  flex-flow: column;
+  }
+}
+
 .equipe-details {
   display: flex;
   flex-flow: column;

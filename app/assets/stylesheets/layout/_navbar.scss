@@ -28,6 +28,13 @@
   margin-left: 50px;
 }
 
+@media screen and (max-width: 440px) {
+  .navbar-wagon-brand img {
+  margin-left: 10px;
+  width: 80px;
+  }
+}
+
 /* Navbar right section (with form, links, button) */
 .navbar-wagon-right {
   display: flex;
@@ -42,6 +49,7 @@
   flex: 0 1 auto;
   cursor: pointer;
   padding: 0 20px;
+  align-items: center;
 }
 
 /* Navbar standard link */
@@ -137,5 +145,21 @@
   width: 20%;
   display: flex;
   flex-flow: row;
+}
+
+.language-mobile {
+  width: 100px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  position: absolute;
+  right: 100px;
+  top: 3px;
+}
+
+@media screen and (min-width: 995px) {
+  .language-mobile {
+  display: none;
+  }
 }
 
