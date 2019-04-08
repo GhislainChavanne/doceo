@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     get 'equipe',       to: 'pages#equipe'
     get 'don',     to: 'pages#don'
     get 'saibaba',     to: 'pages#saibaba'
+    get 'don-entreprise',     to: 'pages#donentreprise'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   end
 end

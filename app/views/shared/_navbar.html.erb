@@ -15,30 +15,23 @@
     <a href="/en/saibaba" class="navbar-wagon-item navbar-button btn-hover btn"><%= I18n.t('.btn2') %></a>
     <a href="/en/don" class="navbar-wagon-item navbar-button btn-hover btn"><%= I18n.t('.btn1') %></a>
     <% else %>
-    <a href="/saibaba" class="navbar-wagon-item navbar-button btn-hover btn"><%= I18n.t('.btn2') %></a>
-    <a href="/don" class="navbar-wagon-item navbar-button btn-hover btn"><%= I18n.t('.btn1') %></a>
+    <a href="/saibaba" class="navbar-wagon-item navbar-button btn-hover btn">Le Projet</a>
+    <a href="/don" class="navbar-wagon-item navbar-button btn-hover btn">Don Particuliers</a>
+    <a href="/don-entreprise" class="navbar-wagon-item navbar-button btn-hover btn">Don Entreprises</a>
     <% end %>
     <!-- Text link -->
-    <div class="language">
+<!--     <div class="language">
     <%= link_to locale: nil do %>
       <p style="font-size: 18px; color: white; margin-top: 8px;" class="navbar-wagon-item navbar-wagon-link">FR</p>
     <% end %>
-    <!-- Text link -->
+    Text link
     <%= link_to locale: 'en' do %>
       <p style="font-size: 18px; color: white; margin-top: 8px;"  class="navbar-wagon-item navbar-wagon-link">EN</p>
     <% end %>
-    </div>
+    </div> -->
   </div>
 
-  <div class="language-mobile">
-    <%= link_to locale: nil do %>
-      <p style="font-size: 18px; color: white; margin-top: 8px;" class="navbar-wagon-item navbar-wagon-link">FR</p>
-    <% end %>
-    <!-- Text link -->
-    <%= link_to locale: 'en' do %>
-      <p style="font-size: 18px; color: white; margin-top: 8px;"  class="navbar-wagon-item navbar-wagon-link">EN</p>
-    <% end %>
-    </div>
+
 
   <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">
@@ -50,8 +43,9 @@
         <li><a href="/en/don"><%= I18n.t('.btn1') %></a></li>
         <li><a href="/en/equipe"><%= I18n.t('.team') %></a></li>
       <% else %>
-        <li><a href="/saibaba"><%= I18n.t('.btn2') %></a></li>
-        <li><a href="/don"><%= I18n.t('.btn1') %></a></li>
+        <li><a href="/saibaba">Le Projet</a></li>
+        <li><a href="/don">Don Particulier</a></li>
+        <li><a href="/don-entreprise">Don Entreprises</a></li>
         <li><a href="/equipe"><%= I18n.t('.team') %></a></li>
       <% end %>
       </ul>

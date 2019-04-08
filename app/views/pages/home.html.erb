@@ -3,8 +3,8 @@
 <% content_for :meta_image, "banner.jpg" %>
 
 <div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('<%= image_path('banner.jpg') %>');">
-  <div class="banner-content">
-    <h1 style="border-left: 1px solid white; padding-left: 15px;"><%= I18n.t('.title') %></h1>
+  <div class="banner-content text-center">
+    <h1>Venez soutenir Docéo Éducation pour promouvoir l’éducation des plus défavorisés.</h1>
   </div>
 </div>
 
@@ -52,12 +52,19 @@
   </div>
 </div>
 
+<div class="wraper" style="background-color: white; padding-top: 30px; padding-bottom: 30px; margin-bottom: 30px">
+  <div class="container">
+    <h2 class="text-center partenaire-title" style="margin-top: 0px;">Les chiffres clefs</h2>
+  </div>
+</div>
 
-<div class="container text-center">
+<div class="wrapper" style="background-color: #e1e7ef; padding-top: 30px; padding-bottom: 30px">
+<div class="container text-center" >
   <h2 class="text-center partenaire-title" style="margin-top: 0px;"><%= I18n.t('.title3')  %></h2>
   <div class="partenaire text-center">
     <a style="text-decoration: none; cursor: pointer;" target="_blank" href="https://www.unitedwaymumbai.org/">
       <%= image_tag('uw.png') %>
     </a>
   </div>
+</div>
 </div>

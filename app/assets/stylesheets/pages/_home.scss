@@ -12,11 +12,13 @@
   display: flex;
   align-items: center;
   padding-left: 80px;
+  padding-right: 80px;
 }
 
 
 .banner-content {
   color: white;
+  width: 100%;
 }
 
 @media screen and (max-width: 539px) {
@@ -33,7 +35,7 @@
 
 #text-accroche {
   font-weight: lighter;
-  letter-spacing: 2px;
+  letter-spacing: 1.1px;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -43,7 +45,7 @@
 
 #title-presentation {
   font-weight: lighter;
-  letter-spacing: 2px;
+  letter-spacing: 1.1px;
   margin-top: 10px;
 }
 
@@ -87,8 +89,10 @@
 
 .partenaire-title {
   color: #008489;
-  letter-spacing: 4px;
-  margin-bottom: 20px;
+  font-weight: lighter;
+  letter-spacing: 1.1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 

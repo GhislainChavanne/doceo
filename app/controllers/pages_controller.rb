@@ -10,4 +10,8 @@ class PagesController < ApplicationController
 
   def don
   end
+
+  def donentreprise
+  end
+
 end
