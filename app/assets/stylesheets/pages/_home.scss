@@ -1,6 +1,6 @@
 .wrapper {
    padding-top: 30px;
-   padding-bottom: 30px;
+   padding-bottom: 60px;
 }
 
 .banner {
@@ -29,7 +29,7 @@
   width: 100%;
   h1 {
   color: white;
-  font-weight: 700px;
+  font-weight: 700;
   font-family: 'Poppins', sans-serif;
   }
 }
@@ -38,7 +38,7 @@
   width: 100%;
   h1 {
   color: white;
-  font-weight: 700px;
+  font-weight: 700;
   font-family: 'Poppins', sans-serif;
   }
 }
@@ -56,13 +56,6 @@
   }
 }
 
-@media screen and (max-width: 910px) {
-  .banner-pages iframe {
-  display: none;
-  }
-}
-
-
 #text-accroche {
   text-align: center;
   margin: auto;
@@ -72,19 +65,6 @@
   font-weight: 800;
   font-family: 'Poppins', sans-serif;
   max-width: 90%;
-}
-
-
-#title-presentation {
-  font-weight: lighter;
-  letter-spacing: 1.1px;
-  margin-top: 10px;
-}
-
-.presentation {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  width: 100%;
 }
 
 .sabibaba-resume {
@@ -138,11 +118,36 @@
   margin-bottom: 10px;
   text-align: left;
   font-family: 'Poppins', sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
-.partenaire {
-  width: 40%;
-  margin: auto;
-  margin-bottom: 40px;
+.card-chiffres {
+  background-color: #ececec;
+  height: 200px;
+  margin-bottom: 20px;
+  p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.banner-chiffres {
+  height: 40%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+}
+
+.img-entreprise {
+  width: 100px;
+}
+
+@media screen and (max-width: 400px) {
+  .img-entreprise {
+  width: 80%;
+  }
 }

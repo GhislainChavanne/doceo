@@ -1,40 +1,47 @@
-.btn-hover {
-
-  &:hover {
-
-  }
-}
-
-.btn-hover2 {
-  display: inline-block;
-  transition-duration: 0.3s;
-  transition-property: background;
-  transform: translateZ(0); /* Hack to improve performance on mobile/tablet devices */
-  &:hover {
-    background: #132c4a;
-    color: white;
-  }
-}
-
 .btn-doceo {
-  border: 2px solid #132c4a;
-  padding: 15px;
-  width: 100%;
+  border: 2px solid #9fd3c7;
+  background-color: white;
+  padding: 10px;
   display: flex;
   justify-content: space-around;
-  height: 40px;
   align-items: center;
   color: #132c4a;
-  font-size: 20px; cursor: pointer;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 20px;
+  cursor: pointer;
+  float: left;
 }
 
 .btn-doceo:hover {
-  background: #132c4a;
+  background-color: #9fd3c7;
+  text-decoration: none;
+  color: #132c4a;
+  transition-duration: 0.3s;
+}
+
+.btn-doceo-alternatif {
+  border: 2px solid #132c4a;
+  background-color: #132c4a;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   color: white;
-  text-decoration:none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  width: auto;
+  margin-top: 40px;
+  float: left;
+}
+
+.btn-doceo-alternatif:hover {
+  background-color: #f4f4f4;;
+  text-decoration: none;
+  color: #132c4a;
   transition-duration: 0.3s;
 }
 
