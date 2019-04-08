@@ -11,38 +11,33 @@
 
 <div class="wrapper" style="background-color: #f4f4f4;">
   <div class="container">
-  <h2 class="title-section">Saibaba School</h2>
-    <div class="row" style="margin-top: 20px;">
-        <div class="col-md-6 hidden-xs text-center">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-              <li data-target="#myCarousel" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <%= image_tag('car.png', size: "500x400") %>
-              </div>
-              <div class="item">
-                <%= image_tag('car1.png', size: "500x400") %>
-              </div>
-              <div class="item">
-                <%= image_tag('car2.png', size: "500x400") %>
-              </div>
-              <div class="item">
-                <%= image_tag('car3.png', size: "500x400") %>
-              </div>
+    <h2 class="title-section">Saibaba School</h2>
+    <div class="row text-center">
+      <div class="col-md-4 col-xs-12">
+        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg1" style="cursor: pointer">
+        <div class="card-saibaba">
+          <div class="banner-saibaba" style="background-image: url('<%= image_path('car.png') %>');">
+          </div>
+          <p>Pourquoi Saibaba?</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg3" style="cursor: pointer">
+          <div class="card-saibaba">
+            <div class="banner-saibaba" style="background-image: url('<%= image_path('car2.png') %>');">
             </div>
+            <p>Ses caractéristiques</p>
           </div>
         </div>
-      <div class="col-md-6 col-xs-12">
-        <div class="btns">
-          <%= image_tag('btns.png') %>
-          <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg1">Pourquoi Saibaba</div>
-          <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg3">Ses caractéristiques</div>
-          <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg2">Ses besoins</div>
+      </div>
+      <div class="col-md-4 col-xs-12">
+        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg2" style="cursor: pointer">
+          <div class="card-saibaba">
+            <div class="banner-saibaba" style="background-image: url('<%= image_path('car3.png') %>');">
+            </div>
+            <p>Ses besoins</p>
+          </div>
         </div>
       </div>
     </div>
@@ -116,3 +111,43 @@
     </div>
   </div>
 </div>
+
+<!-- <div class="wrapper" style="background-color: #f4f4f4;">
+  <div class="container">
+  <h2 class="title-section">Saibaba School</h2>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-md-6 hidden-xs text-center">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <%= image_tag('car.png', size: "500x400") %>
+              </div>
+              <div class="item">
+                <%= image_tag('car1.png', size: "500x400") %>
+              </div>
+              <div class="item">
+                <%= image_tag('car2.png', size: "500x400") %>
+              </div>
+              <div class="item">
+                <%= image_tag('car3.png', size: "500x400") %>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="col-md-6 col-xs-12">
+        <div class="btns">
+          <%= image_tag('btns.png') %>
+          <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg1">Pourquoi Saibaba</div>
+          <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg3">Ses caractéristiques</div>
+          <div type="button" class="btn-doceo btn-hover2" data-toggle="modal" data-target=".bs-example-modal-lg2">Ses besoins</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
