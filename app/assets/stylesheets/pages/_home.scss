@@ -3,6 +3,10 @@
  * (margin/padding adjustments)
  * ------------------------------------- */
 
+.wrapper {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
 
 .banner {
   height: 100vh;
@@ -13,8 +17,12 @@
   align-items: center;
   padding-left: 80px;
   padding-right: 80px;
+  h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
+  }
 }
-
 
 .banner-content {
   color: white;
@@ -34,12 +42,14 @@
 }
 
 #text-accroche {
-  font-weight: lighter;
-  letter-spacing: 1.1px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: #5B5B5B;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #10263c;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+  max-width: 90%;
 }
 
 
@@ -60,7 +70,7 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  color: #5B5B5B;
+  color: #10263c;
   background-color: white;
   padding: 20px;
   clear: left;
@@ -68,6 +78,10 @@
   box-shadow: 0 1px 2px rgba(0,0,0,0.07);
   img {
     width: 100%;
+  }
+  a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700px;
   }
 }
 
@@ -76,23 +90,23 @@
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  color: #5B5B5B;
+  color: #10263c;
   background-color: white;
   padding: 20px;
   clear: left;
-  border-radius: 2px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.07);
   img {
     width: 100%;
   }
 }
 
-.partenaire-title {
-  color: #008489;
-  font-weight: lighter;
-  letter-spacing: 1.1px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.title-section {
+  color: #10263c;
+  font-weight: bold;
+  margin-bottom: 45px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700px;
 }
 
 

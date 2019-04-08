@@ -9,31 +9,11 @@
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-
-    <!-- Button (call-to-action) -->
-    <% if I18n.locale == :en %>
-    <a href="/en/saibaba" class="navbar-wagon-item navbar-button btn-hover btn"><%= I18n.t('.btn2') %></a>
-    <a href="/en/don" class="navbar-wagon-item navbar-button btn-hover btn"><%= I18n.t('.btn1') %></a>
-    <% else %>
-    <a href="/saibaba" class="navbar-wagon-item navbar-button btn-hover btn">Le Projet</a>
-    <a href="/don" class="navbar-wagon-item navbar-button btn-hover btn">Don Particuliers</a>
-    <a href="/don-entreprise" class="navbar-wagon-item navbar-button btn-hover btn">Don Entreprises</a>
-    <% end %>
-    <!-- Text link -->
-<!--     <div class="language">
-    <%= link_to locale: nil do %>
-      <p style="font-size: 18px; color: white; margin-top: 8px;" class="navbar-wagon-item navbar-wagon-link">FR</p>
-    <% end %>
-    Text link
-    <%= link_to locale: 'en' do %>
-      <p style="font-size: 18px; color: white; margin-top: 8px;"  class="navbar-wagon-item navbar-wagon-link">EN</p>
-    <% end %>
-    </div> -->
+    <a href="/saibaba" class="navbar-wagon-item navbar-button">Le Projet</a>
+    <a href="/don" class="navbar-wagon-item navbar-button">Don Particuliers</a>
+    <a href="/don-entreprise" class="navbar-wagon-item navbar-button">Don Entreprises</a>
   </div>
 
-
-
-  <!-- Dropdown appearing on mobile only -->
   <div class="navbar-wagon-item hidden-md hidden-lg">
     <div class="dropdown">
       <i style="color: white;" class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
