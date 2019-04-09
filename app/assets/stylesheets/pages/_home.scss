@@ -151,3 +151,23 @@
   width: 80%;
   }
 }
+
+.video-united {
+  width: 80%;
+  margin: auto;
+  iframe {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .saibaba-partenaire {
+    width: 100%;
+      iframe {
+      width: 280px;
+      height: 200px;
+    }
+  }
+}

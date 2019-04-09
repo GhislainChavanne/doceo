@@ -14,7 +14,7 @@
     <h2 class="title-section">Saibaba School</h2>
     <div class="row text-center">
       <div class="col-md-4 col-xs-12">
-        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg1" style="cursor: pointer">
+        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg1" style="cursor: pointer" class="hvr-float">
         <div class="card-saibaba">
           <div class="banner-saibaba" style="background-image: url('<%= image_path('car.png') %>');">
           </div>
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="col-md-4 col-xs-12">
-        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg3" style="cursor: pointer">
+        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg3" style="cursor: pointer" class="hvr-float">
           <div class="card-saibaba">
             <div class="banner-saibaba" style="background-image: url('<%= image_path('car2.png') %>');">
             </div>
@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="col-md-4 col-xs-12">
-        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg2" style="cursor: pointer">
+        <div type="button" data-toggle="modal" data-target=".bs-example-modal-lg2" style="cursor: pointer" class="hvr-float">
           <div class="card-saibaba">
             <div class="banner-saibaba" style="background-image: url('<%= image_path('car3.png') %>');">
             </div>
@@ -48,14 +48,14 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h3 class="title-section"><%= I18n.t('.modal1-title') %></h3>
-      <h4><%= I18n.t('.modal1-text1') %></h4>
-      <h4><strong><%= I18n.t('.mais') %></strong> <%= I18n.t('.modal1-text2') %></h4>
-      <h4><%= I18n.t('.modal1-text3') %></h4>
-      <h4><%= I18n.t('.modal1-text4') %></h4>
-      <h4><%= I18n.t('.modal1-text5') %></h4>
-      <h4><%= I18n.t('.modal1-text6') %></h4>
-      <h4><strong><%= I18n.t('.modal1-text7') %></strong></h4>
+      <h4 class="title-section"><%= I18n.t('.modal1-title') %></h4>
+      <p><%= I18n.t('.modal1-text1') %></p>
+      <p><strong><%= I18n.t('.mais') %></strong> <%= I18n.t('.modal1-text2') %></p>
+      <p><%= I18n.t('.modal1-text3') %></p>
+      <p><%= I18n.t('.modal1-text4') %></p>
+      <p><%= I18n.t('.modal1-text5') %></p>
+      <p><%= I18n.t('.modal1-text6') %></p>
+      <p><strong><%= I18n.t('.modal1-text7') %></strong></p>
 
     </div>
   </div>
@@ -65,12 +65,12 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h3 class="title-section"><%= I18n.t('.modal2-title') %></h3>
-      <h4><strong>En 2019 de nombreux projets restent à financer :</strong></h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> L’ouverture du Grade 10: Préparation aux examens d’Etat indien (500€/enfants, 40 élèves environ)</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Recrutement de professeurs diplômés</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Modernisation de la salle informatique</h4>
-      <h4><i class="fa fa-check-square-o" aria-hidden="true"></i> Développement de la section Sports</h4>
+      <h4 class="title-section"><%= I18n.t('.modal2-title') %></h4>
+      <p><strong>En 2019 de nombreux projets restent à financer :</strong></p>
+      <p><i class="fa fa-check-square-o" aria-hidden="true"></i> L’ouverture du Grade 10: Préparation aux examens d’Etat indien (500€/enfants, 40 élèves environ)</p>
+      <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Recrutement de professeurs diplômés</p>
+      <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Modernisation de la salle informatique</p>
+      <p><i class="fa fa-check-square-o" aria-hidden="true"></i> Développement de la section Sports</p>
     </div>
   </div>
 </div>
@@ -79,20 +79,20 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="font-size: 30px; color: #008489"><i class="fa fa-times" aria-hidden="true"></i></button>
-      <h3 class="title-section"><strong><%= I18n.t('.modal3-title') %></strong></h3>
-      <h4><strong><%= I18n.t('.modal3-text') %></strong>  </h4>
-      <h4>- <%= I18n.t('.modal3-text1') %></h4>
-      <h4>- <%= I18n.t('.modal3-text2') %></h4>
-      <h4>- <%= I18n.t('.modal3-text3') %></h4>
-      <h4>- <%= I18n.t('.modal3-text5') %></h4>
-      <h4>- <%= I18n.t('.modal3-text6') %></h4>
-      <h4>- <%= I18n.t('.modal3-text13') %></h4>
-      <h4>- <%= I18n.t('.modal3-text7') %></h4><br>
-      <h4><strong><%= I18n.t('.modal3-text8') %></strong></h4>
-      <h4>- <%= I18n.t('.modal3-text9') %></h4>
-      <h4>- <%= I18n.t('.modal3-text10') %></h4>
-      <h4>- <%= I18n.t('.modal3-text11') %></h4>
-      <h4>- <%= I18n.t('.modal3-text12') %></h4>
+      <h4 class="title-section"><strong><%= I18n.t('.modal3-title') %></strong></h4>
+      <p><strong><%= I18n.t('.modal3-text') %></strong>  </p>
+      <p>- <%= I18n.t('.modal3-text1') %></p>
+      <p>- <%= I18n.t('.modal3-text2') %></p>
+      <p>- <%= I18n.t('.modal3-text3') %></p>
+      <p>- <%= I18n.t('.modal3-text5') %></p>
+      <p>- <%= I18n.t('.modal3-text6') %></p>
+      <p>- <%= I18n.t('.modal3-text13') %></p>
+      <p>- <%= I18n.t('.modal3-text7') %></p><br>
+      <p><strong><%= I18n.t('.modal3-text8') %></strong></p>
+      <p>- <%= I18n.t('.modal3-text9') %></p>
+      <p>- <%= I18n.t('.modal3-text10') %></p>
+      <p>- <%= I18n.t('.modal3-text11') %></p>
+      <p>- <%= I18n.t('.modal3-text12') %></p>
     </div>
   </div>
 </div>
@@ -103,14 +103,14 @@
   </div>
 </div>
 
-<div class="wrapper" style="background-color: #f4f4f4;">
+<!-- <div class="wrapper" style="background-color: #f4f4f4;">
   <div class="container">
    <h2 class="title-section">United Way Mumbay, Partenaire de Docéo</h2>
     <div class="text-center">
       <iframe class="text-center" style="text-align: center; border: solid 10px #10263c; margin: auto;" width="350" height="300" src="https://www.youtube.com/embed/SbPVDLOigXQ" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- <div class="wrapper" style="background-color: #f4f4f4;">
   <div class="container">
